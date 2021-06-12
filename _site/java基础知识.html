@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Hacker theme | Hacker is a theme for GitHub Pages.</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Hacker theme" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hacker is a theme for GitHub Pages." />
+<meta property="og:description" content="Hacker is a theme for GitHub Pages." />
+<meta property="og:site_name" content="Hacker theme" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hacker theme" />
+<script type="application/ld+json">
+{"description":"Hacker is a theme for GitHub Pages.","url":"/java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html","headline":"Hacker theme","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Hacker theme</h1>
+        </a>
+        <h2>Hacker is a theme for GitHub Pages.</h2>
+
+        <section id="downloads">
+          
+            <a href="" class="btn">Download as .zip</a>
+            <a href="" class="btn">Download as .tar.gz</a>
+          
+          <a href="" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3 id="浮点数的精度丢失">浮点数的精度丢失：</h3>
+
+<h4 id="精度丢失的原因">精度丢失的原因：</h4>
+
+<ol>
+  <li>计算机是二进制实现，十进制数的二进制表示形式可能不准确</li>
+  <li>位数限制（双精度浮点数64位(double)，单精度浮点数32位(float)）</li>
+  <li>使用的数字之间类型不匹配（混合使用浮点型和双精度型）</li>
+</ol>
+
+<p>例（double的实现）：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>s</th>
+      <th>eeeeeee eeee</th>
+      <th>ffff ffffffff ffffffff ffffffff ffffffff ffffffff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1（符号位）</td>
+      <td>11（指数）</td>
+      <td>52（尾数）</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>接下来看具体实现：</p>
+
+<p>(1) 十进制整数如何转化为二进制数</p>
+
+<p>​      算法很简单。举个例子，11表示成二进制数：</p>
+
+<p>​           11/2=5 余  1</p>
+
+<p>​            5/2=2  余  1</p>
+
+<p>​            2/2=1  余  0</p>
+
+<p>​            1/2=0  余  1</p>
+
+<p>​             0结束</p>
+
+<p>​			11二进制表示为(从下往上):1011</p>
+
+<p>​     这里提一点：只要遇到除以后的结果为0了就结束了，大家想一想，所有的整数除以2是不是一定能够最终得到0。换句话说，所有的整数转变为二进制数的算法会不会无限循环下去呢？绝对不会，<strong><em>*整数永远可以用二进制精确表示*</em></strong> ，但小数就不一定了。</p>
+
+<p>(2) 十进制小数如何转化为二进制数</p>
+
+<p>​      算法是乘以2直到没有了小数为止。举个例子，0.9表示成二进制数</p>
+
+<p>​           0.9*2=1.8  取整数部分 1</p>
+
+<p>​           0.8(1.8的小数部分)*2=1.6  取整数部分 1</p>
+
+<p>​           0.6*2=1.2  取整数部分 1</p>
+
+<p>​           0.2*2=0.4  取整数部分 0</p>
+
+<p>​           0.4*2=0.8  取整数部分 0</p>
+
+<p>​           0.8*2=1.6 取整数部分 1</p>
+
+<p>​           0.6*2=1.2  取整数部分 0</p>
+
+<p>​               ………   0.9二进制表示为(从上往下): 1100100100100……</p>
+
+<p>​      注意：上面的计算过程循环了，也就是说*2永远不可能消灭小数部分，这样算法将无限下去。很显然，<strong>*小数的二进制表示有时是不可能精确的*</strong> 。其实道理很简单，十进制系统中能不能准确表示出1/3呢？同样二进制系统也无法准确表示1/10。这也就解释了为什么浮点型减法出现了”减不尽”的精度丢失问题。</p>
+
+<p><a href="./">back</a></p>
+
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>
