@@ -2,9 +2,31 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-
 [欢迎来到PMGG的博客](./welcome-page.html).
+
+简单自我介绍：男，活的猿。
+
+这是我的个人博客，用于记录一名普通程序猿的学习路径。
+
+目前粗浅的想法是会分为两大板块：基础版和应用版。
+
+## 基础版
+
+包括算法，操作系统，计算机网络和Java基础
+
+[DP动态规划](./DP动态规划.html).
+
+[java基础知识](./java基础知识.html).
+
+## 应用版
+
+包括Spring Boot，Vue，Mysql和Redis
+
+
+
+每天都会更新，如果有问题欢迎和我交流探讨。
+
+Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 There should be whitespace between paragraphs.
 

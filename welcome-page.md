@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 ## 欢迎来到PMGG的博客
