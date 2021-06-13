@@ -1,6 +1,8 @@
-# The Hacker theme
+# PaOMiAnZuiS.github.io
 
 [![Build Status](https://travis-ci.org/pages-themes/hacker.svg?branch=master)](https://travis-ci.org/pages-themes/hacker) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
+
+为了更好的阅读体验，您可以访问我的GitHub Pages：https://paomianzuis.github.io/
 
 *Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
 
@@ -49,7 +51,7 @@ If you'd like to add your own custom styles:
     ```scss
     ---
     ---
-
+    
     @import "{{ site.theme }}";
     ```
 3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line

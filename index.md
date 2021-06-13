@@ -6,12 +6,6 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [欢迎来到PMGG的博客](./welcome-page.html).
 
-[DP动态规划](./DP动态规划.html).
-
-[java基础知识](./java基础知识.html).
-
-
-
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
