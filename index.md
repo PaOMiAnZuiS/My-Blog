@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[欢迎来到PMGG的博客](./welcome-page.html).
+[欢迎来到PMGG-YYH的博客](./welcome-page.html).
 
 简单自我介绍：男，活的猿。
 
