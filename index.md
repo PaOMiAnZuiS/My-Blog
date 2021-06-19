@@ -18,6 +18,8 @@ layout: default
 
 [java基础知识](./java基础知识.html).
 
+[在地址栏输入URL之后会发生什么？](./在地址栏输入URL之后会发生什么？.html).
+
 ## 应用版
 
 包括Spring Boot，Vue，Mysql和Redis
