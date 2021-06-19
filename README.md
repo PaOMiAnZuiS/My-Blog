@@ -4,8 +4,6 @@
 
 我的GitHub Pages：https://paomianzuis.github.io/
 
-[欢迎来到PMGG-YYH的博客](./welcome-page.html).
-
 简单自我介绍：男，base杭州。
 
 这是我的个人博客，用于记录一名普通程序猿的学习路径。
