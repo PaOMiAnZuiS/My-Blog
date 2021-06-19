@@ -9,7 +9,7 @@ layout: default
 
 1. DNS解析
 
-   ![DNS解析过程](https://segmentfault.com/img/bVDM45?w=1928&h=1248)
+   ![DNS解析过程](resource/img/DNS.png)
 
    上图就是DNS的解析过程，简单来说分为以下过程：
 
@@ -38,7 +38,7 @@ layout: default
 
    获取HTTP返回的资源（HTML，CSS，JS文件），进行WebKit渲染
 
-   ![WebKit渲染过程](https://segmentfault.com/img/bVCZ1H?w=694&h=340)
+   ![WebKit渲染过程](resource/img/WebKit.png)
 
    浏览器的渲染过程。
 
