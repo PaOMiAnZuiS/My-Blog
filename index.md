@@ -4,7 +4,7 @@ layout: default
 
 [欢迎来到PMGG-YYH的博客](./welcome-page.html).
 
-简单自我介绍：男，base杭州<img src="resource/img/yuhang.jpg" alt="yuhang" style="zoom:5%;" />
+简单自我介绍：男，base杭州                                                                                                                                            <img src="resource/img/yuhang.jpg" alt="yuhang" style="zoom:5%;" />
 
 
 
@@ -16,7 +16,7 @@ layout: default
 
 ## 基础版
 
-包括算法，操作系统，计算机网络和Java基础
+包括**算法**，**操作系统**，**计算机网络**和**Java基础**
 
 [DP动态规划](./DP动态规划.html).
 
