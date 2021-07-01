@@ -26,9 +26,9 @@ layout: default
 
 [TCP的三次握手和四次挥手](./TCP的三次握手和四次挥手.html).
 
-[TCP的三次握手和四次挥手](./TCP的三次握手和四次挥手.html).
-
 [HTTP请求简介](./HTTP请求简介.html).
+
+[网络协议](./网络协议.html).
 
 ## 应用版
 
