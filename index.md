@@ -28,7 +28,7 @@ layout: default
 
 [HTTP请求简介](./HTTP请求简介.html).
 
-[网络协议](./网络协议.html).
+[网络模型](./网络模型.html).
 
 ## 应用版
 
