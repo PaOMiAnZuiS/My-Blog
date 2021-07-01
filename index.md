@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[欢迎来到PMGG-YYH的博客](./welcome-page.html).
+# [欢迎来到PMGG-YYH的博客](./welcome-page.html).
 
 简单自我介绍：男，base杭州 <img src="resource/img/yuhang.jpg" alt="yuhang" style="zoom:5%;" />
 
@@ -25,6 +25,10 @@ layout: default
 [在地址栏输入URL之后会发生什么？](./在地址栏输入URL之后会发生什么？.html).
 
 [TCP的三次握手和四次挥手](./TCP的三次握手和四次挥手.html).
+
+[TCP的三次握手和四次挥手](./TCP的三次握手和四次挥手.html).
+
+[HTTP请求简介](./HTTP请求简介.html).
 
 ## 应用版
 
