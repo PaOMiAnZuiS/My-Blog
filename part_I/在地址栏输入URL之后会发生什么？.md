@@ -44,5 +44,5 @@ layout: default
 
 6. 结束连接
 
-[back](./)
+[back](../)
 

@@ -4,6 +4,8 @@ layout: default
 
 # 努力躺平的PMGG
 
+<img src="resource/img/yuhang.jpg" alt="yuhang" style="zoom:5%;" />
+
 ###### 简单自我介绍：
 
 喜欢打游戏，**Dota2**骨灰级玩家，主机PC手机三平台。
@@ -13,5 +15,7 @@ layout: default
 喜欢听歌唱歌，*周杰伦*可以听一辈子。
 
 写博客的初衷是帮助自己整理知识，把学到的东西记录下来一直是我的习惯，如果能帮助到更多的人，不胜荣幸。
+
+
 
 [back](./)

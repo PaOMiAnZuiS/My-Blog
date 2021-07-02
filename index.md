@@ -4,11 +4,7 @@ layout: default
 
 # [欢迎来到PMGG的博客](./welcome-page.html).
 
-简单自我介绍：男，base杭州 <img src="resource/img/yuhang.jpg" alt="yuhang" style="zoom:5%;" />
-
-
-
-
+简单自我介绍：男，base杭州 
 
 这是我的个人博客，用于记录一名普通程序猿的学习路径。
 
@@ -18,15 +14,15 @@ layout: default
 
 包括**算法**，**操作系统**，**计算机网络**和**Java基础**
 
-- 算法：
+- **算法**：
 
 [DP动态规划](./part_I/DP动态规划.html).
 
-- java基础：
+- **java基础**：
 
 [浮点数的精度丢失](./part_I/浮点数的精度丢失.html).
 
-- 计算机网络：
+- **计算机网络**：
 
 [在地址栏输入URL之后会发生什么？](./part_I/在地址栏输入URL之后会发生什么？.html).
 
@@ -36,17 +32,20 @@ layout: default
 
 [网络模型](./part_I/网络模型.html).
 
-- 操作系统：
+- **操作系统**：
 
 [线程和进程深度解析](./part_I/线程和进程深度解析.html).
 
 ## 应用版
 
-包括**Spring Boot**，**Vue**，**Mysql**和**Redis**
+包括**Spring Boot**，**Mysql**和**Redis**
 
-- Redis:
+- **Redis**:
 
 [Redis基础](./part_II/Redis基础.html).
+
+- **Spring Boot**:
+- **Mysql**:
 
 *每天都会更新，如果有问题欢迎和我交流探讨。*
 

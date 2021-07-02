@@ -32,5 +32,5 @@ layout: default
 
   zset的成员是唯一的,但分数(score)却可以重复。
 
-[back](./)
+[back](../)
 
