@@ -42,6 +42,10 @@ layout: default
 
 [线程和进程深度解析](./part_I/线程和进程深度解析.html).
 
+- **软件测试**：
+
+[黑盒测试和白盒测试](./part_I/黑盒测试和白盒测试.html).
+
 ## 应用版
 
 包括**Spring Boot**，**Mysql**和**Redis**

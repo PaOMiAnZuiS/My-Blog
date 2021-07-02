@@ -1,0 +1,22 @@
+I"p<h1 id="树结构">树结构：</h1>
+
+<p>树结构是数据结构中非常常见的一种结构，同时也拥有一个庞大的家族，以下聊一聊几种常见的，或者笔者觉得有代表性的树结构：</p>
+
+<h2 id="二叉树binary-tree">二叉树（Binary Tree）：</h2>
+
+<h2 id="完全二叉树complete-binary-tree">完全二叉树（Complete Binary Tree）：</h2>
+
+<h2 id="满二叉树full-binary-tree">满二叉树（Full Binary Tree）：</h2>
+
+<h2 id="二叉搜索树binary-search-tree">二叉搜索树（Binary Search Tree）：</h2>
+
+<h2 id="红黑树red-black-tree">红黑树（Red-Black Tree）：</h2>
+
+<h2 id="二叉树binary-tree-1">二叉树（Binary Tree）：</h2>
+
+<p>下图分别是七层网络模型和四层网络模型：</p>
+
+<p><img src="../resource/img/internet-model.png" alt="image-20210701150036610" /></p>
+
+<p><a href="../">back</a></p>
+:ET
