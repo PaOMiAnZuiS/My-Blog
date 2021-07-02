@@ -1,0 +1,32 @@
+I"�<h1 id="牛顿迭代法的应用">牛顿迭代法的应用</h1>
+
+<p>今天刷<strong>LeetCode</strong>时遇到了一道很有趣的题：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>给出一个数字，求解他的立方根，不实用库函数，保留一位小数。
+
+Example：
+Input:216
+Output:6.0
+</code></pre></div></div>
+
+<p>一开始的思路是找一个合适的起始点，然后每次加0.1慢慢逼近，但是感觉这样非常蠢。</p>
+
+<p>后来想到硕士阶段有一门Numerical Method的课，学过不少求近似解的方法，其中就有<strong>牛顿迭代法</strong>。</p>
+
+<h3 id="牛顿迭代法">牛顿迭代法：</h3>
+
+<p>牛顿迭代法的本质是不断的对曲线求其切线的解，逐步逼近近似解。</p>
+
+<p>由题意可设f(x) = x^3 - y，求f(x) = 0时的解。</p>
+
+<p>根据牛顿迭代法的思想，每一次的迭代方程为: x_{n+1} = x_n - f(x_n)/f’(x_n)</p>
+
+<p>则此题中的迭代方程为:x_{n+1} = x_n - (x^3 - y)/(3*x^2) = (2x+ y/x^2)/3</p>
+
+<p>转换成代码：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<p><a href="../">back</a></p>
+:ET

@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Hacker theme | Hacker is a theme for GitHub Pages.</title>
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Hacker theme" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Hacker is a theme for GitHub Pages." />
-<meta property="og:description" content="Hacker is a theme for GitHub Pages." />
-<meta property="og:site_name" content="Hacker theme" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Hacker theme" />
-<script type="application/ld+json">
-{"description":"Hacker is a theme for GitHub Pages.","headline":"Hacker theme","url":"/","@type":"WebSite","name":"Hacker theme","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <a id="a-title" href="/">
-          <h1>PMGG‘s Blog</h1>
-        </a>
-        <h2>Do not go gentle into that good night.</h2>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h1 id="欢迎来到pmgg的博客"><a href="./welcome-page.html">欢迎来到PMGG的博客</a>.</h1>
+I"�<h1 id="欢迎来到pmgg的博客"><a href="./welcome-page.html">欢迎来到PMGG的博客</a>.</h1>
 
 <p>简单自我介绍：男，base杭州</p>
 
@@ -102,10 +65,4 @@
 
 <p><em>每天都会更新，如果有问题欢迎和我交流探讨。</em></p>
 
-
-      </section>
-    </div>
-
-    
-  </body>
-</html>
+:ET
