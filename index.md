@@ -44,6 +44,9 @@ layout: default
 
 包括**Spring Boot**，**Vue**，**Mysql**和**Redis**
 
+- Redis:
 
+[Redis基础](./part_II/Redis基础.html).
 
 *每天都会更新，如果有问题欢迎和我交流探讨。*
+

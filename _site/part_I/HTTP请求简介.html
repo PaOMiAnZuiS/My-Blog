@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Hacker theme | Hacker is a theme for GitHub Pages.</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Hacker theme" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hacker is a theme for GitHub Pages." />
+<meta property="og:description" content="Hacker is a theme for GitHub Pages." />
+<meta property="og:site_name" content="Hacker theme" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hacker theme" />
+<script type="application/ld+json">
+{"description":"Hacker is a theme for GitHub Pages.","headline":"Hacker theme","url":"/part_I/HTTP%E8%AF%B7%E6%B1%82%E7%AE%80%E4%BB%8B.html","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>PMGG‘s Blog</h1>
+        </a>
+        <h2>Do not go gentle into that good night.</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="http请求简介">HTTP请求简介</h1>
+
+<h4 id="http请求的格式">HTTP请求的格式：</h4>
+
+<p>HTTP GET请求的格式：`</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /path HTTP/1.1
+Header1: Value1
+Header2: Value2
+Header3: Value3
+</code></pre></div></div>
+
+<p>HTTP POST请求的格式：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /path HTTP/1.1
+Header1: Value1
+Header2: Value2
+Header3: Value3
+
+body data goes here...
+</code></pre></div></div>
+
+<p>HTTP响应的格式：`</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>200 OK
+Header1: Value1
+Header2: Value2
+Header3: Value3
+
+body data goes here...
+</code></pre></div></div>
+
+<p>响应代码：</p>
+
+<ul>
+  <li>200 -&gt; 成功</li>
+  <li>3xx -&gt; 重定向</li>
+  <li>4xx -&gt; 客户端发送的请求有错误</li>
+  <li>5xx -&gt; 服务端处理时发生了错误</li>
+</ul>
+
+<h4 id="http请求的流程">HTTP请求的流程：</h4>
+
+<ol>
+  <li>浏览器向服务器发送HTTP请求</li>
+  <li>服务器向浏览器返回HTTP相应</li>
+  <li>如果浏览器还需要向服务器请求其他资源（例如图片），则重复步骤1，2</li>
+</ol>
+
+<p><a href="./">back</a></p>
+
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

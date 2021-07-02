@@ -1,0 +1,52 @@
+I"B<h1 id="http请求简介">HTTP请求简介</h1>
+
+<h4 id="http请求的格式">HTTP请求的格式：</h4>
+
+<p>HTTP GET请求的格式：`</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /path HTTP/1.1
+Header1: Value1
+Header2: Value2
+Header3: Value3
+</code></pre></div></div>
+
+<p>HTTP POST请求的格式：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /path HTTP/1.1
+Header1: Value1
+Header2: Value2
+Header3: Value3
+
+body data goes here...
+</code></pre></div></div>
+
+<p>HTTP响应的格式：`</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>200 OK
+Header1: Value1
+Header2: Value2
+Header3: Value3
+
+body data goes here...
+</code></pre></div></div>
+
+<p>响应代码：</p>
+
+<ul>
+  <li>200 -&gt; 成功</li>
+  <li>3xx -&gt; 重定向</li>
+  <li>4xx -&gt; 客户端发送的请求有错误</li>
+  <li>5xx -&gt; 服务端处理时发生了错误</li>
+</ul>
+
+<h4 id="http请求的流程">HTTP请求的流程：</h4>
+
+<ol>
+  <li>浏览器向服务器发送HTTP请求</li>
+  <li>服务器向浏览器返回HTTP相应</li>
+  <li>如果浏览器还需要向服务器请求其他资源（例如图片），则重复步骤1，2</li>
+</ol>
+
+<p><a href="./">back</a></p>
+
+:ET

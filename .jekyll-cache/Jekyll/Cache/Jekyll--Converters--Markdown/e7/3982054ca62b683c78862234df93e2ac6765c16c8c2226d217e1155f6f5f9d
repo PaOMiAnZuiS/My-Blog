@@ -1,0 +1,50 @@
+I"�<h1 id="动态规划dynamic-programming">动态规划（Dynamic Programming）</h1>
+
+<h3 id="动态规划以下简称dp应该算是算法题里比较复杂比较难啃的部分了个人认为主要原因在于其思路不够直观因此在此再整理一遍dp这个知识点帮助自己理清思路的同时希望也能帮助到更多人">动态规划（以下简称DP）应该算是算法题里比较复杂，比较难啃的部分了。个人认为主要原因在于其思路不够直观。因此在此再整理一遍DP这个知识点，帮助自己理清思路的同时，希望也能帮助到更多人。</h3>
+
+<p>首先，什么是动态规划？</p>
+
+<p><em>动态规划是一种自底向上，从小规模的问题慢慢向上循环迭代，得到最终答案的解决方法。</em></p>
+
+<p><strong>思路</strong>：从小规模的问题规模开始，把每一步的最佳结果记录下来。</p>
+
+<h2 id="状态转移方程">状态转移方程</h2>
+
+<p>找出问题的状态转移方程，也就是描述问题结构的数学形式，是动态规划的核心。</p>
+
+<p>下面我们通过一个例子来更好的了解动态规划：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>爬楼梯问题，每次可以爬1级或者2级楼梯，给出楼梯的总级数，求有多少种不同的方法到达最高级。
+Example1:
+Input: 2
+Output: 2
+
+Example2:
+Input: 3
+Output:3
+</code></pre></div></div>
+
+<p>由于每一次我们的选择只有走一步或者走两步，因此当我们到达第i级楼梯时，一定是从第i-1级或者第i-2级爬上来的。记当走到第i级楼梯时的所有可能性为dp[i]，因此可得状态转移方程为：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dp[i] = dp[i-1] + dp[i-2]
+</code></pre></div></div>
+
+<p>思路有了，接下来我们以java为例来实现：</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kt">int</span> <span class="nf">climbStairs</span><span class="o">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kt">int</span><span class="o">[]</span> <span class="n">dp</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="o">];</span>
+    <span class="n">dp</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
+    <span class="n">dp</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span>
+    <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+        <span class="n">dp</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">dp</span><span class="o">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="o">]</span> <span class="o">+</span> <span class="n">dp</span><span class="o">[</span><span class="n">i</span><span class="o">-</span><span class="mi">2</span><span class="o">];</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="n">dp</span><span class="o">[</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="o">];</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p><strong><em>大功告成！</em></strong></p>
+
+<p>但是要注意的是，动态规划问题的难点就在于找到状态转换方程，如何用代码公式准确描述问题，因此这类题没有模板，只能靠自己多学多练。一起加油吧！</p>
+
+<p><a href="./">back</a></p>
+:ET

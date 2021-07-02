@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Hacker theme | Hacker is a theme for GitHub Pages.</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Hacker theme" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hacker is a theme for GitHub Pages." />
+<meta property="og:description" content="Hacker is a theme for GitHub Pages." />
+<meta property="og:site_name" content="Hacker theme" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hacker theme" />
+<script type="application/ld+json">
+{"description":"Hacker is a theme for GitHub Pages.","headline":"Hacker theme","url":"/part_I/TCP%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.html","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>PMGG‘s Blog</h1>
+        </a>
+        <h2>Do not go gentle into that good night.</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="tcp的三次握手和四次挥手">TCP的三次握手和四次挥手</h1>
+
+<p>TCP存在于网络模型的运输层，TCP是一种面向连接的单播协议，因此要确保连接的稳定性，需要三次握手来确定建立稳定的连接，以及四次挥手来确定断开连接。</p>
+
+<p>一个TCP连接由一个4元组构成，分别是两个IP地址和两个端口号。</p>
+
+<h4 id="三次握手">三次握手：</h4>
+
+<ul>
+  <li>第一次握手：客户端发送网络包，带有SYN标志，服务端收到了。这样服务端就能得出结论：客户端的发送能力、服务端的接收能力是正常的。</li>
+  <li>第二次握手：服务端发包，带有SYN和ACK标志，客户端收到了。这样客户端就能得出结论：服务端的接收、发送能力，客户端的接收、发送能力是正常的。</li>
+  <li>第三次握手：客户端发包，带有ACK标志，服务端收到了。这样服务端就能得出结论：客户端的接收、发送能力，服务端的发送、接收能力是正常的。</li>
+</ul>
+
+<h4 id="四次挥手">四次挥手：</h4>
+
+<ul>
+  <li>第一次挥手：当有一方要关闭连接时，会发送指令告知对方，要关闭连接。</li>
+  <li>第二次挥手：对方返回一个ACK，此时一个方向上的连接关闭。</li>
+  <li>第三次挥手：等到另一个方向上的数据发送完毕之后，发送一个FIN标志来关闭此方向上的连接。</li>
+  <li>
+    <p>第四次挥手：接收方发送ACK确认关闭连接。</p>
+
+    <p><img src="../resource/img/三次握手四次挥手.jpeg" alt="三次握手四次挥手" /></p>
+  </li>
+</ul>
+
+<p><a href="./">back</a></p>
+
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,15 @@
+I"�<h1 id="redis基础">Redis基础</h1>
+
+<h2 id="redis的五种基本数据结构">Redis的五种基本数据结构：</h2>
+
+<ul>
+  <li><strong>String</strong>：字符串类型</li>
+  <li><strong>Hash</strong>：散列表</li>
+  <li><strong>List</strong>：列表</li>
+  <li><strong>Set</strong>：集合</li>
+  <li><strong>Sorted Set</strong>：有序集合</li>
+</ul>
+
+<p><a href="./">back</a></p>
+
+:ET
