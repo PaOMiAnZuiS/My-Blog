@@ -1,0 +1,18 @@
+I"�<h1 id="软件测试的方式">软件测试的方式</h1>
+
+<p>按照软件的<strong>生命周期</strong>划分：<strong>单元测试、集成测试、系统测试、回归测试、验收测试</strong>。</p>
+
+<p>按照<strong>测试关注点</strong>划分：<strong>功能测试、性能测试、稳定性测试、易用性测试、安全性测试</strong>。</p>
+
+<p>按照<strong>测试实施者</strong>划分：<strong>开发方测试（α测试）、用户测试（β测试）、第三方测试</strong>。</p>
+
+<p>按照<strong>技术/测试用例设计</strong>划分：<strong>白盒测试、黑盒测试、灰盒测试</strong>。</p>
+
+<p>按照<strong>分析方法</strong>划分：<strong>静态测试、动态测试</strong>。</p>
+
+<p>按照<strong>测试执行方式</strong>划分：<strong>手工测试、自动化测试</strong>。</p>
+
+<p>按照<strong>测试对象</strong>划分：<strong>程序测试、文档测试</strong>。</p>
+
+<p><a href="../">back</a></p>
+:ET

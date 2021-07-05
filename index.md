@@ -46,6 +46,8 @@ layout: default
 
 [黑盒测试和白盒测试](./part_I/黑盒测试和白盒测试.html).
 
+[软件测试的方式](./part_I/软件测试的方式.html).
+
 ## 应用版
 
 包括**Spring Boot**，**Mysql**和**Redis**
