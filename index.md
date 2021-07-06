@@ -28,7 +28,7 @@ layout: default
 
 [浮点数的精度丢失](./part_I/浮点数的精度丢失.html).
 
-[Java底层知识梳理](./part_I/java底层知识梳理.html).
+[Java底层知识梳理](./part_I/Java底层知识梳理.html).
 
 - **计算机网络**：
 
