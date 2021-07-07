@@ -34,7 +34,7 @@ layout: default
 
 [Java异常处理](./part_I/Java异常处理.html). 
 
-[final和stat inic](./part_I/final和static.html).
+[final和static](./part_I/final和static.html).
 
 - **计算机网络**：
 
