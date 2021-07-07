@@ -32,6 +32,10 @@ layout: default
 
 [Java多线程](./part_I/Java多线程.html).
 
+[Java异常处理](./part_I/Java异常处理.html).
+
+[final和static](./part_I/fianl和static.html).
+
 - **计算机网络**：
 
 [在地址栏输入URL之后会发生什么？](./part_I/在地址栏输入URL之后会发生什么？.html).
