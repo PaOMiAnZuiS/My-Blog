@@ -32,9 +32,9 @@ layout: default
 
 [Java多线程](./part_I/Java多线程.html).
 
-[Java异常处理](./part_I/Java异常处理.html).
+[Java异常处理](./part_I/Java异常处理.html). 
 
-[final和static](./part_I/fianl和static.html).
+[final和stat inic](./part_I/final和static.html).
 
 - **计算机网络**：
 
