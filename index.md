@@ -26,7 +26,7 @@ layout: default
 
 [树结构](./part_I/树结构.html).
 
-- **java基础**：
+- **Java基础**：
 
 [浮点数的精度丢失](./part_I/浮点数的精度丢失.html).
 
@@ -37,6 +37,10 @@ layout: default
 [Java异常处理](./part_I/Java异常处理.html). 
 
 [final和static](./part_I/final和static.html).
+
+[Java GC](./part_I/Java GC.html).
+
+
 
 - **计算机网络**：
 
