@@ -30,7 +30,7 @@ layout: default
 
 [浮点数的精度丢失](./part_I/浮点数的精度丢失.html).
 
-[Java底层知识梳理](./part_I/Java底层知识梳理.html).
+[Java类的加载](./part_I/Java类的加载.html).
 
 [Java多线程](./part_I/Java多线程.html).
 
