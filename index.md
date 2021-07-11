@@ -40,7 +40,7 @@ layout: default
 
 [Java GC](./part_I/Java GC.html).
 
-
+[Java位运算](./part_I/Java位运算.html).
 
 - **计算机网络**：
 
