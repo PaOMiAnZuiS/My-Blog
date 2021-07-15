@@ -44,6 +44,8 @@
 
 [Java位运算](./part_I/Java位运算.html).
 
+[String, StringBuffer和StringBuilder](./part_I/String, StringBuffer和StringBuilder.html).
+
 [HashMap, HashTable和CurrentHashMap](./part_I/HashMap, HashTable和CurrentHashMap.html).
 
 - **计算机网络**：
