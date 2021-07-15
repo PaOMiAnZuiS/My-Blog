@@ -44,6 +44,8 @@
 
 [Java位运算](./part_I/Java位运算.html).
 
+[HashMap, HashTable和CurrentHashMap](./part_I/HashMap, HashTable和CurrentHashMap.html).
+
 - **计算机网络**：
 
 [在地址栏输入URL之后会发生什么？](./part_I/在地址栏输入URL之后会发生什么？.html).
