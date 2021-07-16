@@ -48,6 +48,8 @@
 
 [HashMap, HashTable和CurrentHashMap](./part_I/HashMap, HashTable和CurrentHashMap.html).
 
+[常见的设计模式](./part_I/常见的设计模式.html).
+
 - **计算机网络**：
 
 [在地址栏输入URL之后会发生什么？](./part_I/在地址栏输入URL之后会发生什么？.html).
