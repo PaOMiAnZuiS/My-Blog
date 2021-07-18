@@ -20,6 +20,8 @@
 
 [DP动态规划](./part_I/DP动态规划.html).
 
+[排序算法](./part_I/排序算法.html).
+
 [牛顿迭代法的应用](./part_I/牛顿迭代法的应用.html).
 
 [字符串匹配的KMP算法](./part_I/字符串匹配的KMP算法.html).
