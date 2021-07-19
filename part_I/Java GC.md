@@ -63,7 +63,55 @@ layout: default
 
 ## 垃圾收集器：
 
+### Serial收集器：
 
+单线程，使用标记-复制算法。单线程的好处是避免上下文切换，适用于早期的单核机器。但是在执行期间，会发生STW（Stop The World）。
+
+### Serial Old收集器
+
+单线程，在老年代中使用标记-整理算法。因为老年代的对象比较多，占用的空间会更大。在执行期间会发生STW。
+
+### ParNew收集器
+
+Serial的多线程版本，适用于多核机器。在执行期间会发生STW。
+
+### Parallel Scavenge收集器：
+
+ParNew的升级版本。
+
+提供了两个额外参数：
+
+1. -XX：MaxGCPauseMillis：最大垃圾回收停顿时间
+2. -XX：GCTimeRatio：垃圾回收时间与总时间占比
+
+### Parallel Old收集器：
+
+Serial Old的多线程版本。
+
+### CMS（Concurrent Mark Sweep）收集器：
+
+在JDK 7中广泛使用的收集器。主要分为四个阶段
+
+1. **Initial Mark初始标记**：标记GC Root开始的下一级对象。该过程会STW。
+2. **Concurrent Mark并发标记**：根据上一步的结果，继续向下标识所有关联的对象，直到尽头。该过程为多线程，且不会STW。
+3. **Remark再标记**：由于第二步没有阻塞其他工作线程，其他线程在标识过程中，很有可能会产生新的垃圾。因此需要再标记一次。
+4. **Concurrent Sweep并行清理**：并行清理，这里使用多线程以“Mark Sweep-标记清理”算法，把垃圾清掉，其他工作线程仍然能继续执行，不会造成卡顿。
+
+### G1（Garbage First）收集器：
+
+G1将heap内存区划分为一个个大小相等，内存连续的Region区域，每个Region都对应Eden，Survivor，Old，Humongous四种角色之一，但是region和region之间不要求连续。
+
+### ZGC：
+
+从JDK11开始引入。
+
+- 动态调整大小的Region
+- 不分代，干掉了RSets
+- 带颜色的指针Colored Pointer
+- 读屏障Load Barrier
+- 重定位relocation
+- 多重映射Multi-Mapping
+- 支持NUMA架构
 
 ## 四种引用的区别：
 
