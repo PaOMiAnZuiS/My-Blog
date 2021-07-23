@@ -96,5 +96,11 @@
 
 [什么是事务](./part_II/什么是事务.html).
 
+[Mysql基础](./part_II/Mysql基础.html).
+
+[Mysql优化](./part_II/Mysql优化.html).
+
+[Mysql索引的底层原理](./part_II/Mysql索引的底层原理.html).
+
 *每天都会更新，如果有问题欢迎和我交流探讨。*
 

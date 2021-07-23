@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# mysql基础
+# Mysql基础
 
 ## DDL(Data Definition Language):
 

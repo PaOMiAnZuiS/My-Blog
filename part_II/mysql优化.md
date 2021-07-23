@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# mysql优化
+# Mysql优化
 
 以下是几种常见的优化方法：
 
