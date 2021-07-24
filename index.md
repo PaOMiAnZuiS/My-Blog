@@ -96,7 +96,7 @@
 
 [什么是事务](./part_II/什么是事务.html).
 
-[Mysql基础](./part_II/Mysql基础html).
+[Mysql基础](./part_II/Mysql基础.html).
 
 [Mysql优化](./part_II/Mysql优化.html).
 
