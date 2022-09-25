@@ -4,6 +4,4 @@
 
 我的GitHub Pages：https://paomianzuis.github.io/
 
-简单自我介绍：男，base杭州，UCL硕士，互联网打工人，开发岗
-
-这是我的个人博客，用于记录一名普通程序猿的学习路径。
+简单自我介绍：男，base杭州，测试开发
